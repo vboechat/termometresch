@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "vercel-build": "pnpm run test && pnpm run build",
     "preview": "vite preview",
     "test": "vitest --config ./vitest.config.ts",
     "test:coverage": "vitest run --coverage --config ./vitest.config.ts"
