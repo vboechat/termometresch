@@ -4,8 +4,6 @@
 This project is a PWA (Progress Web Application), that allows you to convert temperatures 
 from a common unit (Celsius, Fahrenheit and Kelvin) to another one.
 
-**This project will be refactored to Tailwind CSS.**
-
 ## Getting started
 
 ### Installation
