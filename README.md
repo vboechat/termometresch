@@ -7,7 +7,9 @@ from a common unit (Celsius, Fahrenheit and Kelvin) to another one.
 ## Getting started
 
 ### Installation
-You will need to have Node installed in your computer with minimum version 18.X, you can download it from [here](https://nodejs.org/en/download/).
+You will need to have Node installed in your computer with minimum version 18.X, 
+you can download it from [here](https://nodejs.org/en/download/).
+
 To install the project locally, just run the following command in your terminal:
 ```bash
 npm install
@@ -33,6 +35,19 @@ npm run test:coverage
 npm run dev
 npm run cypress:run
 ```
+
+## Contributing
+Firstly, thank you for your interest in contributing to the project, highly appreciated.
+If you want to contribute to the project, please follow the following steps:
+
+1. Fork the project
+2. Create a new branch with the following format: `<type>/<branch-name>`.
+3. Make your changes
+4. Create a pull request following the semantic commit format, the title of the pull request also should follow the 
+semantic commit format.
+
+Stay aware that if changes are requested from the reviewers, you will have 3 to 7 days to make the changes, 
+otherwise the pull request will be closed.
 
 ## Credits
 This project was created using the following technologies/libraries/websites:
