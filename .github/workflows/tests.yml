@@ -41,7 +41,7 @@ jobs:
         timeout-minutes: 5
         with:
           build: pnpm build
-          start: pnpm preview
+          start: pnpm dev
           wait-on: 'http://localhost:4173'
           record: true
           parallel: true
