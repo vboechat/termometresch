@@ -36,18 +36,13 @@ jobs:
       - name: Run tests
         run: pnpm test
 
-      - name: Get PR Vercel preview URL
-        uses: aaimio/vercel-preview-url-action@v2.0.0
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Run Cypress tests
         uses: cypress-io/github-action@v4
         timeout-minutes: 5
         with:
           build: pnpm build
           start: pnpm dev
-          wait-on: ${{ steps.vercel_preview_url.outputs.vercel_preview_url }}
+          wait-on: 'https://localhost:5173'
           record: true
           parallel: true
         env:
