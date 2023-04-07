@@ -24,9 +24,14 @@ npm run dev
 If you want to execute the tests, just run the following command in your terminal:
 
 ```bash
+# Unit tests
 npm run test
-# Coverage
+## Coverage
 npm run test:coverage
+
+# E2E tests
+npm run dev
+npm run cypress:run
 ```
 
 ## Credits
@@ -37,6 +42,7 @@ This project was created using the following technologies/libraries/websites:
  - [Vite PWA plugin](https://vite-pwa-org.netlify.app/)
  - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
  - [Vitest](https://vitest.dev/)
+ - [Cypress](https://www.cypress.io/)
  - [Chakra UI](https://chakra-ui.com/)
  - [ESLint](https://eslint.org/)
  - [Favicon.io](https://favicon.io/)
