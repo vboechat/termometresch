@@ -42,7 +42,7 @@ jobs:
         with:
           build: pnpm build
           start: pnpm dev
-          wait-on: 'http://localhost:4173'
+          wait-on: 'http://localhost:5173'
           record: true
           parallel: true
         env:
