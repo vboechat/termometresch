@@ -13,6 +13,7 @@ dist
 dev-dist
 dist-ssr
 *.local
+/cypress/videos/
 
 # Editor directories and files
 .vscode/*
