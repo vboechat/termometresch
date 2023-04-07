@@ -13,15 +13,15 @@ const ResultsBox = ({ celsius, fahrenheit, kelvin }: Temperatures) => {
       <Heading as="h3" fontSize="xl">
         Celsius:
       </Heading>
-      <Text>{celsius}</Text>
+      <Text data-testid="celsius-result">{celsius}</Text>
       <Heading as="h3" fontSize="xl" mt={2}>
         Fahrenheit:
       </Heading>
-      <Text>{fahrenheit}</Text>
+      <Text data-testid="fahrenheit-result">{fahrenheit}</Text>
       <Heading as="h3" fontSize="xl" mt={2}>
         Kelvin:
       </Heading>
-      <Text>{kelvin}</Text>
+      <Text data-testid="kelvin-result">{kelvin}</Text>
     </>
   );
 };
