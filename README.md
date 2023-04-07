@@ -51,6 +51,7 @@ otherwise the pull request will be closed.
 
 ## Credits
 This project was created using the following technologies/libraries/websites:
+ - [PNPM](https://pnpm.io/)
  - [Typescript](https://www.typescriptlang.org/)
  - [React](https://reactjs.org/)
  - [Vite](https://vitejs.dev/)
