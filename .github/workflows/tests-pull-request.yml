@@ -1,9 +1,6 @@
-name: Run tests on project
+name: Run tests on pull requests
 on:
   pull_request:
-    branches:
-      - master
-  push:
     branches:
       - master
 
@@ -46,5 +43,4 @@ jobs:
           record: true
           parallel: true
         env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
