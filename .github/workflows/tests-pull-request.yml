@@ -40,7 +40,7 @@ jobs:
           browser: chrome
           start: pnpm dev --host 0.0.0.0
           wait-on: 'http://localhost:5173'
-          record: false
+          record: true
           parallel: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
