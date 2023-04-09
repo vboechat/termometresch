@@ -27,4 +27,12 @@ describe("Home Page", () => {
     cy.get('[data-testid="fahrenheit-result"]').should("contain", "212");
     cy.get('[data-testid="kelvin-result"]').should("contain", "373.15");
   });
+
+  it("should not submit form and should not create results box if temperature input is empty", function () {
+    cy.get('input[data-testid="temperature"]').clear();
+    cy.get('button[type="submit"]').click();
+    cy.get('[data-testid="celsius-result"]').should("not.exist");
+    cy.get('[data-testid="fahrenheit-result"]').should("not.exist");
+    cy.get('[data-testid="kelvin-result"]').should("not.exist");
+  });
 });
