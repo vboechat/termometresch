@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@chakra-ui/react':
     specifier: ^2.5.4
@@ -44,7 +48,7 @@ devDependencies:
     version: 1.2.1(typescript@4.9.3)
   '@vitejs/plugin-react':
     specifier: ^3.1.0
-    version: 3.1.0(vite@4.2.0)
+    version: 3.1.0(vite@4.2.3)
   '@vitest/coverage-c8':
     specifier: ^0.29.7
     version: 0.29.7(vitest@0.29.7)
@@ -61,11 +65,11 @@ devDependencies:
     specifier: ^4.9.3
     version: 4.9.3
   vite:
-    specifier: ^4.2.0
-    version: 4.2.0(@types/node@18.15.11)
+    specifier: ^4.2.3
+    version: 4.2.3(@types/node@18.15.11)
   vite-plugin-pwa:
     specifier: ^0.14.6
-    version: 0.14.6(vite@4.2.0)(workbox-build@6.5.4)(workbox-window@6.5.4)
+    version: 0.14.6(vite@4.2.3)(workbox-build@6.5.4)(workbox-window@6.5.4)
   vitest:
     specifier: ^0.29.7
     version: 0.29.7(jsdom@21.1.1)
@@ -3289,7 +3293,7 @@ packages:
       - typescript
     dev: true
 
-  /@vitejs/plugin-react@3.1.0(vite@4.2.0):
+  /@vitejs/plugin-react@3.1.0(vite@4.2.3):
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3300,7 +3304,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.4)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.2.0(@types/node@18.15.11)
+      vite: 4.2.3(@types/node@18.15.11)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -7142,7 +7146,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.2.0(@types/node@18.15.11)
+      vite: 4.2.3(@types/node@18.15.11)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -7153,7 +7157,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-pwa@0.14.6(vite@4.2.0)(workbox-build@6.5.4)(workbox-window@6.5.4):
+  /vite-plugin-pwa@0.14.6(vite@4.2.3)(workbox-build@6.5.4)(workbox-window@6.5.4):
     resolution: {integrity: sha512-3mqbkjvSF89pCSZyXAbv6AO4gYKYZel0rcpBgWOWqEupoBOZF9oHDdgHc+FgjmvQXxuU2k9aEFOfRCMGorV+4Q==}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0
@@ -7165,15 +7169,15 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.1.0
       rollup: 3.20.2
-      vite: 4.2.0(@types/node@18.15.11)
+      vite: 4.2.3(@types/node@18.15.11)
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.2.0(@types/node@18.15.11):
-    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
+  /vite@4.2.3(@types/node@18.15.11):
+    resolution: {integrity: sha512-kLU+m2q0Y434Y1kCy3TchefAdtFso0ILi0dLyFV8Us3InXTU11H/B5ZTqCKIQHzSKNxVG/yEx813EA9f1imQ9A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -7256,7 +7260,7 @@ packages:
       tinybench: 2.4.0
       tinypool: 0.4.0
       tinyspy: 1.1.1
-      vite: 4.2.0(@types/node@18.15.11)
+      vite: 4.2.3(@types/node@18.15.11)
       vite-node: 0.29.7(@types/node@18.15.11)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
